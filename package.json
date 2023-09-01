@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/vbyjsue/tooling-node/issues"
   },
-  "homepage": "https://github.com/vbyjsue/tooling-node#readme"
+  "homepage": "https://github.com/vbyjsue/tooling-node#readme",
+  "devDependencies": {
+    "jest": "^29.6.2",
+    "jest-extended": "^4.0.1",
+    "jest-junit": "^16.0.0"
+  }
 }
