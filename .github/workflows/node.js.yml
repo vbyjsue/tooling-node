@@ -30,7 +30,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
     - name: Publish Test Report
-        uses: mikepenz/action-junit-report@v3
-        if: success() || failure() # always run even if the previous step fails
-        with:
-          report_paths: 'test_reports/*.xml'
+      uses: mikepenz/action-junit-report@v3
+      if: success() || failure() # always run even if the previous step fails
+      with:
+        report_paths: 'test_reports/*.xml'
