@@ -1,0 +1,19 @@
+{
+  "name": "tooling-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbyjsue/tooling-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vbyjsue/tooling-node/issues"
+  },
+  "homepage": "https://github.com/vbyjsue/tooling-node#readme"
+}
